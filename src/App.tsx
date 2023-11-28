@@ -40,6 +40,7 @@ import {
 import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
+import Playground from "./components/playground";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -83,6 +84,14 @@ function App() {
                       canDelete: true,
                     },
                   },
+                  {
+                    name: "playground",
+                    list: "/playground",
+                    meta: {
+                      label: "Playground",
+                    },
+                  }
+
                 ]}
                 options={{
                   syncWithLocation: true,
@@ -130,6 +139,7 @@ function App() {
                       <Route path="edit/:id" element={<CategoryEdit />} />
                       <Route path="show/:id" element={<CategoryShow />} />
                     </Route>
+                    <Route path="/playground" element={<Playground />} />
                     <Route path="*" element={<ErrorComponent />} />
                   </Route>
                   <Route
