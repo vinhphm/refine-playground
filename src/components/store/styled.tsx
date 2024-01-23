@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled'
 
 export const StyledStoreProducts = styled.div`
     display: flex;
@@ -7,4 +7,4 @@ export const StyledStoreProducts = styled.div`
     flex-wrap: wrap;
     gap: 8px;
     margin-bottom: 16px;
-`;
+`

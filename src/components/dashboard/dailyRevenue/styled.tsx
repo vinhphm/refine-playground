@@ -1,18 +1,18 @@
-import styled from "@emotion/styled";
-import { DatePicker } from "antd";
+import styled from '@emotion/styled'
+import { DatePicker } from 'antd'
 
 export const DailyRevenueWrapper = styled.div`
     height: 232px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-`;
+`
 
 export const TitleArea = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-`;
+`
 
 export const TitleAreaAmount = styled.div`
     display: flex;
@@ -30,7 +30,7 @@ export const TitleAreaAmount = styled.div`
             line-height: 1.2;
         }
     }
-`;
+`
 
 export const TitleAreNumber = styled.div`
     display: flex;
@@ -47,7 +47,7 @@ export const TitleAreNumber = styled.div`
             line-height: 0.9;
         }
     }
-`;
+`
 
 export const RangePicker = styled(DatePicker.RangePicker)`
     height: 35px;
@@ -69,4 +69,4 @@ export const RangePicker = styled(DatePicker.RangePicker)`
     .ant-picker-suffix {
         color: #ffffff;
     }
-`;
+`

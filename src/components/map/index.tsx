@@ -1,4 +1,4 @@
-import Map from "./map";
-import MapMarker from "./marker";
+import Map from './map'
+import MapMarker from './marker'
 
-export { MapMarker, Map };
+export { MapMarker, Map }

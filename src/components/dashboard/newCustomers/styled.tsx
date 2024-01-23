@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled'
 
 export const NewCustomersWrapper = styled.div`
     height: 232px;
@@ -9,13 +9,13 @@ export const NewCustomersWrapper = styled.div`
     @media screen and (max-width: 576px) {
         height: 212px;
     }
-`;
+`
 
 export const Header = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-`;
+`
 
 export const HeaderNumbers = styled.div`
     font-size: 28px;
@@ -37,4 +37,4 @@ export const HeaderNumbers = styled.div`
             font-size: 20px;
         }
     }
-`;
+`

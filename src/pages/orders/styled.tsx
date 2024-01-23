@@ -1,12 +1,12 @@
-import styled from "@emotion/styled";
-import { PageHeader as AntdPageHeader } from "@refinedev/antd";
+import styled from '@emotion/styled'
+import { PageHeader as AntdPageHeader } from '@refinedev/antd'
 
-import { Col } from "antd";
+import { Col } from 'antd'
 
 export const Courier = styled.div`
     display: flex;
     align-items: center;
-`;
+`
 
 export const CourierInfoText = styled.div`
     display: flex;
@@ -16,7 +16,7 @@ export const CourierInfoText = styled.div`
     @media screen and (max-width: 768px) {
         margin-bottom: 25px;
     }
-`;
+`
 
 export const CourierInfoBox = styled.div`
     display: flex;
@@ -40,7 +40,7 @@ export const CourierInfoBox = styled.div`
         margin-bottom: 15px;
         width: 100%;
     }
-`;
+`
 
 export const CourierInfoBoxText = styled.div`
     display: flex;
@@ -49,7 +49,7 @@ export const CourierInfoBoxText = styled.div`
     @media screen and (max-width: 768px) {
         margin-bottom: 25px;
     }
-`;
+`
 
 export const CourierBoxContainer = styled(Col)`
     display: flex;
@@ -65,19 +65,19 @@ export const CourierBoxContainer = styled(Col)`
         margin-top: 35px;
         flex-direction: column;
     }
-`;
+`
 
 export const Product = styled.div`
     display: flex;
     align-items: center;
-`;
+`
 
 export const ProductText = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 25px;
     white-space: nowrap;
-`;
+`
 
 export const ProductFooter = styled.div`
     display: flex;
@@ -92,7 +92,7 @@ export const ProductFooter = styled.div`
     & > span:nth-child(2) {
         margin-right: 20px;
     }
-`;
+`
 
 export const PageHeader = styled(AntdPageHeader)`
     @media screen and (max-width: 576px) {
@@ -118,4 +118,4 @@ export const PageHeader = styled(AntdPageHeader)`
             margin-top: 20px;
         }
     }
-`;
+`

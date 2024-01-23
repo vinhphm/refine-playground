@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled'
 
 export const HeaderTitle = styled.div`
     display: flex;
@@ -6,4 +6,4 @@ export const HeaderTitle = styled.div`
     font-size: 14px;
     font-weight: bold;
     border-bottom: 1px;
-`;
+`

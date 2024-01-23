@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled'
 
 export const Container = styled.div`
     margin-bottom: 45px;
@@ -20,11 +20,11 @@ export const Container = styled.div`
             }
         }
     }
-`;
+`
 
 export const AvatarWrapper = styled.div`
     position: relative;
-`;
+`
 
 export const AvatarCircle = styled.div`
     background-color: #67be23;
@@ -47,7 +47,7 @@ export const AvatarCircle = styled.div`
         height: 28px;
         font-size: 10px;
     }
-`;
+`
 
 export const TextWrapper = styled.div`
     display: flex;
@@ -62,4 +62,4 @@ export const TextWrapper = styled.div`
             font-size: 16px;
         }
     }
-`;
+`

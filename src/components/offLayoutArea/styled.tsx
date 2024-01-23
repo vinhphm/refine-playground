@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled'
 
 export const ToggleContainer = styled.div`
    position: fixed;
@@ -45,4 +45,4 @@ export const ToggleContainer = styled.div`
     to {
         transform: scale(1.3) translateX(-2px);
     }
-`;
+`

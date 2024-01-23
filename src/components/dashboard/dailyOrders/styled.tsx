@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled'
 
 export const DailyOrderWrapper = styled.div`
     height: 232px;
@@ -9,7 +9,7 @@ export const DailyOrderWrapper = styled.div`
     @media screen and (max-width: 576px) {
         height: 192px;
     }
-`;
+`
 
 export const TitleArea = styled.div`
     display: flex;
@@ -28,7 +28,7 @@ export const TitleArea = styled.div`
             line-height: 1.2;
         }
     }
-`;
+`
 
 export const TitleAreNumber = styled.div`
     display: flex;
@@ -46,4 +46,4 @@ export const TitleAreNumber = styled.div`
             line-height: 0.9;
         }
     }
-`;
+`
